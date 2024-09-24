@@ -3950,4 +3950,26 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+		.avatar img {
+			position: absolute;
+			top: 3em;
+			right: 7em;
+			border: 2px solid grey;
+			border-radius: 100px;
+			width: 8rem;
+			max-width: 100%;
+			transition: all 0.2s ease-in-out;
+			z-index: 3;
+		  }
 	
+	
+	
+		 
+		  @media (max-width: 600px) {
+			.avatar img {
+			  right: 2em;
+			  width: 5rem;
+			  transition: all 0.2s ease-in-out;
+			  top: 0;
+			}
+		  }
