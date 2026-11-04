@@ -1,100 +1,70 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>CRUD</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    </head>
-    <body class="is-preload">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#070b14">
+	<title>CRUD | João Vitor</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/modern.css">
+	<link rel="stylesheet" href="assets/css/project.css">
+</head>
+<body class="project-page">
+	<header class="project-nav">
+		<a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a>
+		<div class="project-nav-actions">
+			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início" data-i18n="back"><i class="fas fa-arrow-left"></i></a>
+			<button class="icon-button" id="language-toggle" type="button" aria-label="Mudar idioma"><span id="language-label">EN</span></button>
+			<button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+		</div>
+	</header>
 
-        <!-- Wrapper -->
-        <div id="wrapper">
+	<main>
+		<section class="project-hero">
+			<div class="project-hero-copy">
+				<p class="section-kicker">ASP.NET · C# · SQL Server</p>
+				<h1>CRUD</h1>
+				<p data-i18n="summary">API de cadastro de clientes desenvolvida para estudar arquitetura, validação de dados e operações completas de criação, consulta, atualização e exclusão.</p>
+				<a class="button button-primary" href="https://github.com/Gaicos/GaicosCrud-V-2.0" target="_blank" rel="noopener"><i class="fab fa-github"></i><span data-i18n="github">Ver no GitHub</span></a>
+			</div>
+			<div class="project-hero-art"><img src="images/pic.jpg" alt="Interface do projeto CRUD"></div>
+		</section>
 
-            <!-- Header -->
-            <header id="header" class="alt">
-                <a href="index.html" class="logo"><strong>João</strong> <span>Estagiário</span></a>
-            </header>
+		<section class="project-section">
+			<div class="project-facts">
+				<div class="fact-card"><span data-i18n="role_label">Meu papel</span><strong data-i18n="role">Desenvolvimento full stack</strong></div>
+				<div class="fact-card"><span data-i18n="type_label">Tipo</span><strong data-i18n="type">Aplicação web</strong></div>
+				<div class="fact-card"><span>Status</span><strong data-i18n="status">Em desenvolvimento</strong></div>
+			</div>
+			<div class="project-content-grid">
+				<article class="feature-card">
+					<h2 data-i18n="challenge_title">O desafio</h2>
+					<p data-i18n="challenge">Garantir que os dados enviados pelos usuários fossem validados antes de chegar ao banco de dados, evitando registros inconsistentes e retornando feedback claro na interface.</p>
+				</article>
+				<article class="feature-card">
+					<h2 data-i18n="solution_title">A solução</h2>
+					<ul>
+						<li data-i18n="feature1">Validação de CPF e campos cadastrais</li>
+						<li data-i18n="feature2">Integração entre interface, API e SQL Server</li>
+						<li data-i18n="feature3">Operações CRUD organizadas por entidades</li>
+						<li data-i18n="feature4">Feedback e estados visuais para o usuário</li>
+					</ul>
+				</article>
+				<article class="takeaway-card"><h2 data-i18n="learning_title">Aprendizados</h2><p data-i18n="learning">Projeto prático para aprofundar ASP.NET, C#, Git, SQL Server, validações, integração entre camadas e organização de uma aplicação web completa.</p></article>
+			</div>
+		</section>
 
-            <!-- Banner -->
-            <section id="banner" class="style2">
-                <div class="inner">
-                    <span class="image">
-                        <img src="images/pic.jpg" alt="" />
-                    </span>
-                    <header class="major">
-                        <h1>CRUD</h1>
-                    </header>
-                    <div class="content">
-                        <p>Uma API de cadastro de clientes completa utilizando ASP.Net</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Main -->
-            <div id="main">
-
-                <!-- Section One -->
-                <section id="one">
-                    <div class="inner">
-                        <header class="major">
-                            <h2>Cadastro e validações</h2>
-                        </header>
-                        <p>Cada parte do cadastro tem uma validação complexa para que os dados cadastrados pelos usuários sejam tratados corretamente pelo banco de dados.</p>
-                    </div>
-                </section>
-
-                <!-- Section Two -->
-                <section id="two" class="spotlights">
-                    <section>
-                        <img src="images/pic1.jpg" alt="" data-position="center center" />
-                        <div class="content">
-                            <div class="inner">
-                                <header class="major">
-                                    <h3>Validação CPF</h3>
-                                </header>
-                                <p>A API conta com validação de CPF de forma inteligente.</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <img src="images/pic2.jpg" alt="" data-position="top center" />
-                        <div class="content">
-                            <div class="inner">
-                                <header class="major">
-                                    <h3>Validações Simples</h3>
-                                </header>
-                                <p>Validações feitas de forma dinâmica e intuitiva para o usuário.</p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-
-                <!-- Section Three -->
-                <section id="three">
-                    <div class="inner">
-                        <header class="major">
-                            <h2>Conhecimentos Utilizados</h2>
-                        </header>
-                        <p>Programa feito inteiramente em ASP.Net. Desenvolvi e ainda estou desenvolvendo habilidades essenciais para meu progresso pessoal como GIT e SQLServer.</p>
-                        <ul class="actions">
-                            <li><a href="https://github.com/Gaicos/GaicosCrud-V-2.0" target="_blank" class="button next scrolly">Ver no Git</a></li>
-                        </ul>
-                    </div>
-                </section>
-
-            </div>
-        </div>
-
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/jquery.scrollex.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+		<section class="project-gallery">
+			<h2 data-i18n="gallery_title">Evidências do projeto</h2>
+			<div class="gallery-grid">
+				<div class="gallery-item"><img src="images/pic1.jpg" alt="Validação de CPF"></div>
+				<div class="gallery-item"><img src="images/pic2.jpg" alt="Validações de cadastro"></div>
+			</div>
+		</section>
+	</main>
+	<script src="assets/js/project-page.js"></script>
+</body>
 </html>

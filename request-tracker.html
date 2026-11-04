@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#070b14">
+	<meta name="description" content="Request Tracker: fila operacional em Microsoft Lists, SharePoint e Power Automate para controlar solicitações da equipe de Risk.">
+	<title>Request Tracker | João Vitor</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/modern.css">
+	<link rel="stylesheet" href="assets/css/project.css">
+</head>
+<body class="project-page">
+	<header class="project-nav">
+		<a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a>
+		<div class="project-nav-actions">
+			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início"><i class="fas fa-arrow-left"></i></a>
+			<button class="icon-button" id="language-toggle" type="button" aria-label="Mudar idioma"><span id="language-label">EN</span></button>
+			<button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+		</div>
+	</header>
+
+	<main>
+		<section class="project-hero">
+			<div class="project-hero-copy">
+				<p class="section-kicker">Microsoft Lists · SharePoint · Power Automate</p>
+				<h1>Request Tracker</h1>
+				<p data-pt="Fila operacional que transforma solicitações recebidas por e-mail em tickets rastreáveis, com atribuição, status automáticos e histórico de cada ação dos analistas."
+				   data-en="An operational queue that turns email requests into traceable tickets, with assignment, automatic statuses and a history of every analyst action.">Fila operacional que transforma solicitações recebidas por e-mail em tickets rastreáveis, com atribuição, status automáticos e histórico de cada ação dos analistas.</p>
+				<div class="rt-badges">
+					<span><i class="fas fa-lock"></i> <b data-pt="Projeto corporativo privado" data-en="Private corporate project">Projeto corporativo privado</b></span>
+				</div>
+			</div>
+
+			<div class="project-hero-art rt-demo" id="rt-demo" aria-label="Demonstração interativa com dados fictícios">
+				<div class="rt-window-bar"><i></i><i></i><i></i><span data-pt="Controle de Solicitações · demo com dados fictícios" data-en="Request Control · demo with fictional data">Controle de Solicitações · demo com dados fictícios</span></div>
+				<div class="rt-tabs" id="rt-tabs"></div>
+				<div class="rt-table-wrap">
+					<table class="rt-table">
+						<thead><tr>
+							<th>Ticket</th><th data-pt="Origem" data-en="Source">Origem</th><th>Tipo</th><th data-pt="Responsável" data-en="Owner">Responsável</th><th>Status</th><th data-pt="Ação" data-en="Action">Ação</th>
+						</tr></thead>
+						<tbody id="rt-body"></tbody>
+					</table>
+				</div>
+				<p class="rt-hint" data-pt="Clique em “Atribuir” e veja o status mudar sozinho, como na automação real." data-en="Click “Assign” and watch the status change by itself, just like the real automation.">Clique em “Atribuir” e veja o status mudar sozinho, como na automação real.</p>
+			</div>
+		</section>
+
+		<section class="project-section">
+			<div class="project-facts">
+				<div class="fact-card"><span data-pt="Meu papel" data-en="My role">Meu papel</span><strong data-pt="Levantamento, desenvolvimento e testes" data-en="Requirements, development and testing">Levantamento, desenvolvimento e testes</strong></div>
+				<div class="fact-card"><span data-pt="Tipo" data-en="Type">Tipo</span><strong data-pt="Fila operacional em Microsoft Lists" data-en="Operational queue on Microsoft Lists">Fila operacional em Microsoft Lists</strong></div>
+				<div class="fact-card"><span>Status</span><strong data-pt="Utilizado pela equipe" data-en="Used by the team">Utilizado pela equipe</strong></div>
+			</div>
+
+			<div class="project-content-grid">
+				<article class="feature-card">
+					<h2 data-pt="O problema" data-en="The problem">O problema</h2>
+					<p data-pt="Solicitações enviadas por e-mail à equipe de Risk ficavam espalhadas, sem prioridade clara, sem dono definido e sem histórico das ações realizadas pelos analistas." data-en="Requests emailed to the Risk team were scattered, with no clear priority, no defined owner and no history of analyst actions.">Solicitações enviadas por e-mail à equipe de Risk ficavam espalhadas, sem prioridade clara, sem dono definido e sem histórico das ações realizadas pelos analistas.</p>
+				</article>
+				<article class="feature-card">
+					<h2 data-pt="A solução" data-en="The solution">A solução</h2>
+					<ul>
+						<li data-pt="Fila única, ordenada do mais antigo para o mais novo" data-en="Single queue, sorted from oldest to newest">Fila única, ordenada do mais antigo para o mais novo</li>
+						<li data-pt="Visões por status: Pendente, Aguardando Resposta, Em andamento, Escalado Compliance, Escalonado e Resolvido" data-en="Views per status: Pending, Awaiting Reply, In Progress, Compliance Escalation, Escalated and Resolved">Visões por status: Pendente, Aguardando Resposta, Em andamento, Escalado Compliance, Escalonado e Resolvido</li>
+						<li data-pt="Atribuição do ticket ao analista com um clique" data-en="One-click ticket assignment to the analyst">Atribuição do ticket ao analista com um clique</li>
+						<li data-pt="Status e datas atualizados automaticamente por fluxos do Power Automate" data-en="Status and dates updated automatically by Power Automate flows">Status e datas atualizados automaticamente por fluxos do Power Automate</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+		<section class="project-section rt-flow-section">
+			<h2 class="rt-title" data-pt="Como o ticket percorre o fluxo" data-en="How a ticket moves through the flow">Como o ticket percorre o fluxo</h2>
+			<ol class="rt-steps">
+				<li><span>01</span><h3 data-pt="Entrada" data-en="Intake">Entrada</h3><p data-pt="A solicitação chega e entra na fila como Pendente." data-en="The request arrives and enters the queue as Pending.">A solicitação chega e entra na fila como Pendente.</p></li>
+				<li><span>02</span><h3 data-pt="Atribuição" data-en="Assignment">Atribuição</h3><p data-pt="O analista seleciona a linha e usa Integrate › Atribuição. O responsável e a data são preenchidos." data-en="The analyst selects the row and uses Integrate › Assignment. Owner and date are filled in.">O analista seleciona a linha e usa Integrate › Atribuição. O responsável e a data são preenchidos.</p></li>
+				<li><span>03</span><h3 data-pt="Em andamento" data-en="In progress">Em andamento</h3><p data-pt="O status muda sozinho para Em andamento, padrão repetido em todas as automações." data-en="Status automatically becomes In Progress, a pattern shared by every automation.">O status muda sozinho para Em andamento, padrão repetido em todas as automações.</p></li>
+				<li><span>04</span><h3 data-pt="Tratativa" data-en="Handling">Tratativa</h3><p data-pt="Aguardando Resposta, Escalado Compliance ou Escalonado, conforme o caso." data-en="Awaiting Reply, Compliance Escalation or Escalated, depending on the case.">Aguardando Resposta, Escalado Compliance ou Escalonado, conforme o caso.</p></li>
+				<li><span>05</span><h3 data-pt="Resolução" data-en="Resolution">Resolução</h3><p data-pt="Ao resolver, a data de finalização é registrada e o ticket sai da fila ativa." data-en="On resolution, the completion date is recorded and the ticket leaves the active queue.">Ao resolver, a data de finalização é registrada e o ticket sai da fila ativa.</p></li>
+			</ol>
+		</section>
+
+		<section class="project-section">
+			<div class="project-content-grid">
+				<article class="feature-card">
+					<h2 data-pt="Fluxo de escalonamento (SM/TL)" data-en="Escalation flow (SM/TL)">Fluxo de escalonamento (SM/TL)</h2>
+					<p data-pt="Casos escalados seguem o mesmo fluxo do analista, mas com automações próprias do SM: a atribuição registra o nome do responsável e a finalização registra data e hora da resolução." data-en="Escalated cases follow the same flow as the analyst, but with their own SM automations: assignment records the owner and completion records the resolution date and time.">Casos escalados seguem o mesmo fluxo do analista, mas com automações próprias do SM: a atribuição registra o nome do responsável e a finalização registra data e hora da resolução.</p>
+				</article>
+				<article class="feature-card">
+					<h2 data-pt="O que usei" data-en="What I used">O que usei</h2>
+					<div class="tech-tags"><span>Microsoft Lists</span><span>SharePoint</span><span>Power Automate</span><span>Outlook</span><span data-pt="Visões filtradas" data-en="Filtered views">Visões filtradas</span><span data-pt="Formatação de colunas" data-en="Column formatting">Formatação de colunas</span></div>
+				</article>
+				<article class="takeaway-card">
+					<h2 data-pt="Resultado" data-en="Result">Resultado</h2>
+					<p data-pt="Centralização das solicitações, documentação das ações dos analistas, padronização do ciclo de vida do ticket e redução de falhas de acompanhamento." data-en="Centralized requests, documented analyst actions, a standardized ticket lifecycle and fewer follow-up failures.">Centralização das solicitações, documentação das ações dos analistas, padronização do ciclo de vida do ticket e redução de falhas de acompanhamento.</p>
+				</article>
+			</div>
+		</section>
+		<section class="project-gallery">
+			<h2 data-pt="Sistema real" data-en="The real system">Sistema real</h2>
+			<p class="rt-note" data-pt="Prints da fila no Microsoft Lists. Campos de identificação foram ocultados." data-en="Screenshots of the queue in Microsoft Lists. Identifying fields have been hidden.">Prints da fila no Microsoft Lists. Campos de identificação foram ocultados.</p>
+			<div class="gallery-grid">
+				<figure class="gallery-item gallery-contain"><img src="images/request-tracker-1.png" alt="Fila Controle de Solicitações com visão Pendente"><figcaption data-pt="Visão Pendente, ordenada da mais antiga para a mais nova" data-en="Pending view, sorted oldest to newest">Visão Pendente, ordenada da mais antiga para a mais nova</figcaption></figure>
+				<figure class="gallery-item gallery-contain"><img src="images/request-tracker-2.jpg" alt="Visões por status da fila"><figcaption data-pt="Visões por status: Aguardando, Em andamento, Compliance, Escalonado, Resolvido" data-en="Status views: Awaiting, In progress, Compliance, Escalated, Resolved">Visões por status: Aguardando, Em andamento, Compliance, Escalonado, Resolvido</figcaption></figure>
+			</div>
+		</section>
+	</main>
+	<script src="assets/js/project-page.js"></script>
+	<script src="assets/js/request-tracker.js"></script>
+</body>
+</html>
