@@ -1,24 +1,100 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-	<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#070b14">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#070b14">
+	<meta name="description" content="LIAM (Linked Internal Account Matrix): Simulador web e framework de cenários de AML, fraude e risco operacional.">
 	<title>LIAM | João Vitor</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css"><link rel="stylesheet" href="assets/css/modern.css"><link rel="stylesheet" href="assets/css/project.css">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/modern.css">
+	<link rel="stylesheet" href="assets/css/project.css">
 </head>
 <body class="project-page">
-	<header class="project-nav"><a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a><div class="project-nav-actions"><a class="icon-button project-back" href="index.html"><i class="fas fa-arrow-left"></i></a><button class="icon-button" id="language-toggle" type="button"><span id="language-label">EN</span></button><button class="icon-button" id="theme-toggle" type="button"><i class="fas fa-moon"></i></button></div></header>
+	<header class="project-nav">
+		<a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a>
+		<div class="project-nav-actions">
+			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início"><i class="fas fa-arrow-left"></i></a>
+			<button class="icon-button" id="language-toggle" type="button" aria-label="Mudar idioma"><span id="language-label">EN</span></button>
+			<button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+		</div>
+	</header>
+
 	<main>
-		<section class="project-hero"><div class="project-hero-copy"><p class="section-kicker">Risk / AML · Microsoft 365</p><h1>LIAM</h1><p data-i18n="summary">Ecossistema interno para criação, distribuição, controle e tratamento de casos de Risk, desenvolvido para reduzir atividades manuais e melhorar a rastreabilidade operacional.</p><a class="button button-primary" href="mailto:joaovitor.ribeirob@gmail.com"><i class="fas fa-lock"></i><span data-i18n="private">Projeto corporativo privado</span></a></div><div class="project-hero-art project-art-illustrated"><div class="placeholder-icon"><i class="fas fa-shield-alt"></i></div></div></section>
-		<section class="project-section">
-			<div class="project-facts"><div class="fact-card"><span data-i18n="role_label">Meu papel</span><strong data-i18n="role">Produto, automação e desenvolvimento</strong></div><div class="fact-card"><span data-i18n="type_label">Tipo</span><strong data-i18n="type">Ecossistema corporativo</strong></div><div class="fact-card"><span>Ambiente</span><strong>Microsoft 365</strong></div></div>
-			<div class="project-content-grid">
-				<article class="feature-card"><h2 data-i18n="challenge_title">O desafio</h2><p data-i18n="challenge">Organizar cenários, casos, documentos, relatórios e ações operacionais em uma experiência consistente, modular e preparada para crescimento.</p></article>
-				<article class="feature-card"><h2 data-i18n="solution_title">O que foi desenvolvido</h2><ul><li data-i18n="feature1">Criação e consolidação de cenários de Risk</li><li data-i18n="feature2">Distribuição, atribuição e controle de casos</li><li data-i18n="feature3">Integração com OneDrive, SharePoint e arquivos HTML</li><li data-i18n="feature4">Arquitetura modular preparada para novos módulos</li></ul></article>
-				<article class="takeaway-card"><h2 data-i18n="result_title">Impacto</h2><p data-i18n="result">Maior padronização dos casos, rastreabilidade das demandas, centralização das informações e menor dependência de controles paralelos.</p></article>
+		<section class="project-hero">
+			<div class="project-hero-copy">
+				<p class="section-kicker">JavaScript · AML Simulator · Risk Management</p>
+				<h1>LIAM</h1>
+				<p data-pt="Linked Internal Account Matrix: plataforma e simulador web que reproduz o ambiente de investigação corporativo para gerar, gerenciar e treinar analistas em cenários complexos de AML, fraude e lavagem de dinheiro."
+				   data-en="Linked Internal Account Matrix: a web simulator and framework reproducing the corporate investigation environment to generate, manage and train analysts on complex AML, fraud, and money laundering scenarios.">Linked Internal Account Matrix: plataforma e simulador web que reproduz o ambiente de investigação corporativo para gerar, gerenciar e treinar analistas em cenários complexos de AML, fraude e lavagem de dinheiro.</p>
+				<div class="rt-badges" style="margin-bottom: 22px;">
+					<a class="button button-primary" href="https://github.com/Gaicos/LIAM" target="_blank" rel="noopener">
+						<i class="fab fa-github"></i>
+						<span data-pt="Ver no GitHub" data-en="View on GitHub">Ver no GitHub</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="project-hero-art gallery-dark">
+				<img src="images/liam-cover.jpg" alt="Interface de Acesso do Software LIAM" style="object-fit: cover; width: 100%; height: 100%;">
 			</div>
 		</section>
-	</main><script src="assets/js/project-page.js"></script>
+
+		<section class="project-section">
+			<div class="project-facts">
+				<div class="fact-card"><span data-pt="Meu papel" data-en="My role">Meu papel</span><strong data-pt="Arquitetura, front-end e lógica" data-en="Architecture, front-end & logic">Arquitetura, front-end e lógica</strong></div>
+				<div class="fact-card"><span data-pt="Tipo" data-en="Type">Tipo</span><strong data-pt="Simulador AML & Framework" data-en="AML Simulator & Framework">Simulador AML & Framework</strong></div>
+				<div class="fact-card"><span>Status</span><strong data-pt="Código aberto & em produção" data-en="Open source & in production">Código aberto & em produção</strong></div>
+			</div>
+
+			<div class="project-content-grid">
+				<article class="feature-card">
+					<h2 data-pt="O desafio" data-en="The challenge">O desafio</h2>
+					<p data-pt="Treinar analistas de Risk e AML diretamente em sistemas de produção é inviável por questões regulatórias e de sigilo. Criar cenários manualmente em planilhas era lento, pouco realista e inconsistente em termos matemáticos e financeiros."
+					   data-en="Training Risk and AML analysts directly in production systems is unfeasible due to regulatory and confidentiality reasons. Manually constructing training cases was slow, unrealistic, and mathematically inconsistent.">Treinar analistas de Risk e AML diretamente em sistemas de produção é inviável por questões regulatórias e de sigilo. Criar cenários manualmente em planilhas era lento, pouco realista e inconsistente em termos matemáticos e financeiros.</p>
+				</article>
+				<article class="feature-card">
+					<h2 data-pt="A solução técnica" data-en="The technical solution">A solução técnica</h2>
+					<ul>
+						<li data-pt="Simulador completo de CRM/IMS reproduzindo a interface de auditoria real" data-en="Full CRM/IMS simulator reproducing the real audit interface">Simulador completo de CRM/IMS reproduzindo a interface de auditoria real</li>
+						<li data-pt="Gerador algorítmico de coerência financeira (depósitos, PIX, saldo e saques sincronizados)" data-en="Algorithmic financial coherence generator (synchronized deposits, PIX, balances and withdrawals)">Gerador algorítmico de coerência financeira (depósitos, PIX, saldo e saques sincronizados)</li>
+						<li data-pt="Modelagem de tipologias de fraude (Dumping de Fichas e Apostas Auto Opostas)" data-en="Fraud typology modeling (Chip Dumping and Self-Opposite Bets)">Modelagem de tipologias de fraude (Dumping de Fichas e Apostas Auto Opostas)</li>
+						<li data-pt="Consolidação e exportação em HTML standalone permanente executável offline" data-en="Standalone permanent HTML consolidation and export, runnable offline">Consolidação e exportação em HTML standalone permanente executável offline</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+		<section class="project-section rt-flow-section">
+			<h2 class="rt-title" data-pt="Tipologias e Comportamentos Simulados" data-en="Simulated Behaviors & Typologies">Tipologias e Comportamentos Simulados</h2>
+			<ol class="rt-steps">
+				<li><span>01</span><h3 data-pt="Jogador Recreativo" data-en="Recreational Player">Jogador Recreativo</h3><p data-pt="Padrão disperso de apostas com depósitos regulares e volumes proporcionais." data-en="Dispersed betting pattern with regular deposits and proportional volumes.">Padrão disperso de apostas com depósitos regulares e volumes proporcionais.</p></li>
+				<li><span>02</span><h3 data-pt="Cobertura > 80%" data-en="Coverage > 80%">Cobertura > 80%</h3><p data-pt="Simulação de cobertura quase total da mesa de roleta para giro artificial de volume." data-en="Simulation of near-total roulette table coverage for artificial volume rollover.">Simulação de cobertura quase total da mesa de roleta para giro artificial de volume.</p></li>
+				<li><span>03</span><h3 data-pt="Saque Imediato" data-en="Immediate Cashout">Saque Imediato</h3><p data-pt="Transações com tentativa de retirada logo após aporte, caracterizando lavagem." data-en="Transactions with cashout attempts immediately following deposits, signaling laundering.">Transações com tentativa de retirada logo após aporte, caracterizando lavagem.</p></li>
+				<li><span>04</span><h3 data-pt="Dumping de Fichas" data-en="Chip Dumping">Dumping de Fichas</h3><p data-pt="Transferência indireta de valor por meio de perdas e ganhos coordenados em mesas ao vivo." data-en="Indirect value transfer via coordinated losses and wins in live dealer games.">Transferência indireta de valor por meio de perdas e ganhos coordenados em mesas ao vivo.</p></li>
+				<li><span>05</span><h3 data-pt="Apostas Opostas" data-en="Opposite Bets">Apostas Opostas</h3><p data-pt="Apostas simultâneas em Player e Banker na mesma rodada com cálculo dinâmico de payout." data-en="Simultaneous bets on Player and Banker on the same hand with dynamic payout calculation.">Apostas simultâneas em Player e Banker na mesma rodada com cálculo dinâmico de payout.</p></li>
+			</ol>
+		</section>
+
+		<section class="project-gallery">
+			<h2 data-pt="Telas do Simulador" data-en="Simulator Screens">Telas do Simulador</h2>
+			<p class="rt-note" data-pt="Capturas do software LIAM em execução no navegador." data-en="Screenshots of LIAM software running inside the browser.">Capturas do software LIAM em execução no navegador.</p>
+			<div class="gallery-grid">
+				<figure class="gallery-item gallery-contain gallery-dark">
+					<img src="images/liam-1.png" alt="Aba General Player Information e criador de cenários">
+					<figcaption data-pt="Interface do caso com dados cadastrais, logs de IP, tags e botões de consolidação" data-en="Case interface with registration details, IP logs, tags, and consolidation triggers">Interface do caso com dados cadastrais, logs de IP, tags e botões de consolidação</figcaption>
+				</figure>
+				<figure class="gallery-item gallery-contain gallery-dark">
+					<img src="images/liam-2.png" alt="Módulo de transações e distribuição por gráficos">
+					<figcaption data-pt="Módulo financeiro com gráficos de distribuição de jogos e extrato transacional PIX" data-en="Financial module featuring game distribution graphs and PIX transactional history">Módulo financeiro com gráficos de distribuição de jogos e extrato transacional PIX</figcaption>
+				</figure>
+			</div>
+		</section>
+	</main>
+	<script src="assets/js/project-page.js"></script>
+	<script src="assets/js/bilingual.js"></script>
 </body>
 </html>

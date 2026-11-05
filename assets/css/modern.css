@@ -455,3 +455,5 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -2; pointer-even
 .ticker:hover .ticker-track { animation-play-state: paused; }
 @keyframes ticker-loop { to { transform: translateX(-16.66666667%); } }
 @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none !important; } }
+
+@media (min-width: 1080px) { .repos-grid { grid-template-columns: repeat(4, 1fr) !important; } }
