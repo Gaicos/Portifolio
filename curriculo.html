@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Currículo - João Vitor Ribeiro Barbosa</title>
+<style>
+  @page {
+    size: A4;
+    margin: 12mm 14mm 12mm 14mm;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1f2c;
+    background: #ffffff;
+    font-size: 10pt;
+    line-height: 1.45;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .header {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 20pt;
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+  .role {
+    font-size: 11pt;
+    font-weight: 600;
+    color: #2563eb;
+    margin-top: 2px;
+    margin-bottom: 6px;
+  }
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 9pt;
+    color: #475569;
+  }
+  .contacts a {
+    color: #0f172a;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .contacts a:hover {
+    text-decoration: underline;
+  }
+  .section {
+    margin-bottom: 11px;
+  }
+  .section-title {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 3px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .section-title::before {
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 12px;
+    background: #2563eb;
+    border-radius: 2px;
+  }
+  p {
+    color: #334155;
+    text-align: justify;
+  }
+  .summary {
+    font-size: 9.5pt;
+    line-height: 1.5;
+  }
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4px;
+    font-size: 9pt;
+  }
+  .skill-item strong {
+    color: #0f172a;
+  }
+  .item {
+    margin-bottom: 8px;
+  }
+  .item:last-child {
+    margin-bottom: 0;
+  }
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .item-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .item-subtitle {
+    font-size: 9pt;
+    font-weight: 600;
+    color: #2563eb;
+  }
+  .item-date {
+    font-size: 8.5pt;
+    color: #64748b;
+    font-weight: 500;
+  }
+  ul {
+    padding-left: 16px;
+    margin-top: 3px;
+  }
+  li {
+    font-size: 9pt;
+    color: #334155;
+    margin-bottom: 2px;
+    line-height: 1.4;
+  }
+  li strong {
+    color: #0f172a;
+  }
+  .project-item {
+    margin-bottom: 7px;
+  }
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .project-name {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .project-tech {
+    font-size: 8.5pt;
+    color: #2563eb;
+    font-weight: 600;
+  }
+  .project-link {
+    font-size: 8pt;
+    color: #64748b;
+    text-decoration: none;
+  }
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  .project-desc {
+    font-size: 8.8pt;
+    color: #334155;
+    margin-top: 1px;
+    line-height: 1.38;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>João Vitor Ribeiro Barbosa</h1>
+  <div class="role">Desenvolvedor de Software | .NET, C# &amp; Automação</div>
+  <div class="contacts">
+    <span>São Paulo, SP · 26 anos</span>
+    <span>•</span>
+    <span><a href="tel:+5511982308315">(11) 98230-8315</a></span>
+    <span>•</span>
+    <span><a href="mailto:joaovitor.ribeirob@gmail.com">joaovitor.ribeirob@gmail.com</a></span>
+    <span>•</span>
+    <span><a href="https://linkedin.com/in/joão-vitor-ribeiro-1b76b623a" target="_blank">LinkedIn</a></span>
+    <span>•</span>
+    <span><a href="https://github.com/Gaicos" target="_blank">GitHub: /Gaicos</a></span>
+    <span>•</span>
+    <span><a href="https://gaicos.github.io/Portifolio/" target="_blank">Portfólio Online</a></span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Resumo Profissional</div>
+  <p class="summary">
+    Desenvolvedor de Software com sólida vivência na criação de aplicações web, simuladores e automações corporativas de alta criticidade. Combina proficiência técnica em <strong>C#, .NET, ASP.NET, SQL Server e JavaScript</strong> com experiência analítica em <strong>Risk Management, AML (Prevenção à Lavagem de Dinheiro) e Compliance</strong>. Histórico comprovado no desenvolvimento de simuladores de auditoria, filas operacionais de atendimento e automações com Power Automate, SharePoint e APIs, reduzindo gargalos operacionais e elevando a rastreabilidade e governança de dados.
+  </p>
+</div>
+
+<div class="section">
+  <div class="section-title">Habilidades Técnicas</div>
+  <div class="skills-grid">
+    <div class="skill-item"><strong>Linguagens &amp; Frameworks:</strong> C#, .NET, .NET Framework, ASP.NET (MVC / Web API), JavaScript (ES6+), HTML5, CSS3, Python</div>
+    <div class="skill-item"><strong>Banco de Dados &amp; Persistência:</strong> Microsoft SQL Server, Modelagem Relacional, Consultas SQL, Integridade de Dados</div>
+    <div class="skill-item"><strong>Automação &amp; Integrações:</strong> Power Automate, Microsoft Lists, SharePoint, Outlook, Consumo e Criação de APIs REST</div>
+    <div class="skill-item"><strong>Boas Práticas &amp; Engenharia:</strong> Git, GitHub, Arquitetura em Camadas, Clean Code, Princípios SOLID, Validações de Entrada</div>
+    <div class="skill-item"><strong>Idiomas &amp; Diferenciais:</strong> Inglês Avançado · Pensamento voltado à Segurança da Informação e Prevenção de Fraudes</div>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Experiência Profissional</div>
+  <div class="item">
+    <div class="item-header">
+      <div>
+        <span class="item-title">Atento / Playtech</span> — <span class="item-subtitle">Especialista em Gestão de Riscos &amp; Automação</span>
+      </div>
+      <span class="item-date">Experiência mais recente</span>
+    </div>
+    <ul>
+      <li>Projetou e desenvolveu ferramentas internas e fluxos com <strong>Power Automate, Microsoft Lists e SharePoint</strong>, eliminando triagens manuais repetitivas e reduzindo tempos de resposta da equipe operacional.</li>
+      <li>Desenvolveu a fila operacional <strong>Request Tracker</strong>, padronizando o ciclo de vida dos tickets com atribuição automática, rastreamento de status em tempo real e regras de escalonamento para gestão (SM/TL).</li>
+      <li>Conduziu conciliações transacionais e análises analíticas de inconsistências em depósitos, saques e alertas de compliance, documentando irregularidades técnicas para suporte a auditorias.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Projetos em Destaque</div>
+
+  <div class="project-item">
+    <div class="project-header">
+      <span class="project-name">LIAM (Linked Internal Account Matrix)</span>
+      <span class="project-tech">JavaScript · HTML5 · CSS3 · AML Framework</span>
+    </div>
+    <p class="project-desc">
+      Simulador web e framework de auditoria que recria o ambiente de CRM corporativo para modelar cenários complexos de AML e fraude. Desenvolveu gerador de coerência matemática financeira (PIX, depósitos, apostas de cassino e saques sincronizados), simulação de tipologias (<em>Dumping de Fichas</em> e <em>Apostas Auto Opostas</em>) e exportação em HTML standalone permanente.
+      <br><a class="project-link" href="https://github.com/Gaicos/LIAM" target="_blank">▸ github.com/Gaicos/LIAM</a>
+    </p>
+  </div>
+
+  <div class="project-item">
+    <div class="project-header">
+      <span class="project-name">CSI Risk</span>
+      <span class="project-tech">JavaScript · HTML5 · CSS3 · Multiplayer · Game Logic</span>
+    </div>
+    <p class="project-desc">
+      Jogo web investigativo gamificado para treinamento de analistas na detecção de fraudes. Conta com 5 níveis de progressão, 100 casos estruturados, sistema de pontuação Elo e modo ranqueado multiplayer online com busca de oponentes em tempo real.
+      <br><a class="project-link" href="https://github.com/Gaicos/CSI-Risk" target="_blank">▸ github.com/Gaicos/CSI-Risk</a>
+    </p>
+  </div>
+
+  <div class="project-item">
+    <div class="project-header">
+      <span class="project-name">GaicosCrud 2.0</span>
+      <span class="project-tech">ASP.NET · C# · SQL Server · Bootstrap</span>
+    </div>
+    <p class="project-desc">
+      Aplicação web completa com operações CRUD conectada ao SQL Server, organizada em camadas com validação estrita de integridade de dados (validação de CPF, restrições cadastrais e feedback visual ao usuário).
+      <br><a class="project-link" href="https://github.com/Gaicos/GaicosCrud-V-2.0" target="_blank">▸ github.com/Gaicos/GaicosCrud-V-2.0</a>
+    </p>
+  </div>
+
+  <div class="project-item">
+    <div class="project-header">
+      <span class="project-name">YGOtools</span>
+      <span class="project-tech">C# · .NET Framework · Windows Forms</span>
+    </div>
+    <p class="project-desc">
+      Aplicação desktop em C# para auxílio estatístico, gerenciamento de dados e cálculo de probabilidade de abertura de mãos.
+      <br><a class="project-link" href="https://github.com/Gaicos/YGOtools" target="_blank">▸ github.com/Gaicos/YGOtools</a>
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Formação Acadêmica</div>
+  <div class="item">
+    <div class="item-header">
+      <div>
+        <span class="item-title">Graduação em Análise e Desenvolvimento de Sistemas</span> — <span class="item-subtitle">Estácio</span>
+      </div>
+      <span class="item-date">2024 – 2026</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

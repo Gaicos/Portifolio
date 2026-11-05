@@ -457,3 +457,11 @@ body::before { content: ""; position: fixed; inset: 0; z-index: -2; pointer-even
 @media (prefers-reduced-motion: reduce) { .ticker-track { animation: none !important; } }
 
 @media (min-width: 1080px) { .repos-grid { grid-template-columns: repeat(4, 1fr) !important; } }
+
+.contact-email-row { margin-top: 14px; }
+.contact-email-badge { display: inline-flex; align-items: center; gap: 9px; padding: 10px 18px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--accent-bright); font-size: .95rem; font-weight: 600; text-decoration: none; transition: .25s ease; }
+.contact-email-badge:hover { transform: translateY(-2px); border-color: var(--accent-bright); color: var(--cyan); box-shadow: 0 8px 24px rgba(124, 92, 255, .2); }
+.footer-contacts { display: flex; align-items: center; gap: 24px; }
+.footer-email { color: var(--muted); font-size: .84rem; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: color .2s; }
+.footer-email:hover { color: var(--text); }
+@media (max-width: 720px) { .footer-contacts { flex-direction: column; gap: 8px; align-items: flex-end; } }
