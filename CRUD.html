@@ -16,7 +16,7 @@
 	<header class="project-nav">
 		<a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a>
 		<div class="project-nav-actions">
-			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início" data-i18n="back"><i class="fas fa-arrow-left"></i></a>
+			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início"><i class="fas fa-arrow-left"></i></a>
 			<button class="icon-button" id="language-toggle" type="button" aria-label="Mudar idioma"><span id="language-label">EN</span></button>
 			<button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
 		</div>
@@ -25,40 +25,46 @@
 	<main>
 		<section class="project-hero">
 			<div class="project-hero-copy">
-				<p class="section-kicker">ASP.NET · C# · SQL Server</p>
+				<p class="section-kicker">ASP.NET · C# · SQL Server · JavaScript</p>
 				<h1>CRUD</h1>
-				<p data-i18n="summary">API de cadastro de clientes desenvolvida para estudar arquitetura, validação de dados e operações completas de criação, consulta, atualização e exclusão.</p>
-				<a class="button button-primary" href="https://github.com/Gaicos/GaicosCrud-V-2.0" target="_blank" rel="noopener"><i class="fab fa-github"></i><span data-i18n="github">Ver no GitHub</span></a>
+				<p data-pt="Aplicação web de gerenciamento e cadastro desenvolvida para consolidar arquitetura em camadas, validação estrita de dados e operações completas com SQL Server."
+				   data-en="Web management and registration application built to master layered architecture, strict data validation, and complete CRUD operations with SQL Server.">Aplicação web de gerenciamento e cadastro desenvolvida para consolidar arquitetura em camadas, validação estrita de dados e operações completas com SQL Server.</p>
+				<a class="button button-primary" href="https://github.com/Gaicos/GaicosCrud-V-2.0" target="_blank" rel="noopener"><i class="fab fa-github"></i><span data-pt="Ver no GitHub" data-en="View on GitHub">Ver no GitHub</span></a>
 			</div>
 			<div class="project-hero-art"><img src="images/pic.jpg" alt="Interface do projeto CRUD"></div>
 		</section>
 
 		<section class="project-section">
 			<div class="project-facts">
-				<div class="fact-card"><span data-i18n="role_label">Meu papel</span><strong data-i18n="role">Desenvolvimento full stack</strong></div>
-				<div class="fact-card"><span data-i18n="type_label">Tipo</span><strong data-i18n="type">Aplicação web</strong></div>
-				<div class="fact-card"><span>Status</span><strong data-i18n="status">Em desenvolvimento</strong></div>
+				<div class="fact-card"><span data-pt="Meu papel" data-en="My role">Meu papel</span><strong data-pt="Desenvolvimento full stack" data-en="Full stack development">Desenvolvimento full stack</strong></div>
+				<div class="fact-card"><span data-pt="Tipo" data-en="Type">Tipo</span><strong data-pt="Aplicação web" data-en="Web application">Aplicação web</strong></div>
+				<div class="fact-card"><span>Status</span><strong data-pt="Código aberto &amp; estudos" data-en="Open source &amp; study project">Código aberto &amp; estudos</strong></div>
 			</div>
 			<div class="project-content-grid">
 				<article class="feature-card">
-					<h2 data-i18n="challenge_title">O desafio</h2>
-					<p data-i18n="challenge">Garantir que os dados enviados pelos usuários fossem validados antes de chegar ao banco de dados, evitando registros inconsistentes e retornando feedback claro na interface.</p>
+					<h2 data-pt="O desafio" data-en="The challenge">O desafio</h2>
+					<p data-pt="Garantir a integridade dos dados enviados pelos usuários antes da persistência no banco de dados, tratando inconsistências e retornando feedback visual imediato na interface."
+					   data-en="Ensure data integrity prior to database persistence, handling inconsistencies and returning clear visual feedback across the user interface.">Garantir a integridade dos dados enviados pelos usuários antes da persistência no banco de dados, tratando inconsistências e retornando feedback visual imediato na interface.</p>
 				</article>
 				<article class="feature-card">
-					<h2 data-i18n="solution_title">A solução</h2>
+					<h2 data-pt="A solução técnica" data-en="The technical solution">A solução técnica</h2>
 					<ul>
-						<li data-i18n="feature1">Validação de CPF e campos cadastrais</li>
-						<li data-i18n="feature2">Integração entre interface, API e SQL Server</li>
-						<li data-i18n="feature3">Operações CRUD organizadas por entidades</li>
-						<li data-i18n="feature4">Feedback e estados visuais para o usuário</li>
+						<li data-pt="Validação de CPF e regras cadastrais tanto no front-end quanto no back-end" data-en="CPF validation and registration rules applied on both front-end and back-end">Validação de CPF e regras cadastrais tanto no front-end quanto no back-end</li>
+						<li data-pt="Integração entre interface web, endpoints em C# e banco relacional SQL Server" data-en="Integration between web interface, C# endpoints, and relational SQL Server database">Integração entre interface web, endpoints em C# e banco relacional SQL Server</li>
+						<li data-pt="Operações CRUD padronizadas e estruturadas por entidades" data-en="Standardized CRUD operations structured cleanly by domain entities">Operações CRUD padronizadas e estruturadas por entidades</li>
+						<li data-pt="Estados visuais de resposta e validação amigável para o usuário" data-en="Visual response states and user-friendly input validation feedback">Estados visuais de resposta e validação amigável para o usuário</li>
 					</ul>
 				</article>
-				<article class="takeaway-card"><h2 data-i18n="learning_title">Aprendizados</h2><p data-i18n="learning">Projeto prático para aprofundar ASP.NET, C#, Git, SQL Server, validações, integração entre camadas e organização de uma aplicação web completa.</p></article>
+				<article class="takeaway-card">
+					<h2 data-pt="Aprendizados" data-en="Key Takeaways">Aprendizados</h2>
+					<p data-pt="Aprofundamento prático no ecossistema .NET, ASP.NET Core, manipulação de queries no SQL Server, versionamento com Git e arquitetura de software orientada a dados."
+					   data-en="Practical deepening in the .NET ecosystem, ASP.NET Core, SQL Server query design, Git versioning, and data-driven software architecture.">Aprofundamento prático no ecossistema .NET, ASP.NET Core, manipulação de queries no SQL Server, versionamento com Git e arquitetura de software orientada a dados.</p>
+				</article>
 			</div>
 		</section>
 
 		<section class="project-gallery">
-			<h2 data-i18n="gallery_title">Evidências do projeto</h2>
+			<h2 data-pt="Evidências do projeto" data-en="Project Evidence">Evidências do projeto</h2>
 			<div class="gallery-grid">
 				<div class="gallery-item"><img src="images/pic1.jpg" alt="Validação de CPF"></div>
 				<div class="gallery-item"><img src="images/pic2.jpg" alt="Validações de cadastro"></div>
@@ -66,5 +72,6 @@
 		</section>
 	</main>
 	<script src="assets/js/project-page.js"></script>
+	<script src="assets/js/bilingual.js"></script>
 </body>
 </html>
