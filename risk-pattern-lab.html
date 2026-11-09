@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#070b14">
+	<meta name="description" content="Risk Pattern Lab: simulador interativo de investigação de risco, antifraude e compliance em interface Retro OS com os 4 passos analíticos e Web Audio API.">
+	<title>Risk Pattern Lab | João Vitor</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/modern.css">
+	<link rel="stylesheet" href="assets/css/project.css">
+</head>
+<body class="project-page">
+	<header class="project-nav">
+		<a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a>
+		<div class="project-nav-actions">
+			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início"><i class="fas fa-arrow-left"></i></a>
+			<button class="icon-button" id="language-toggle" type="button" aria-label="Mudar idioma"><span id="language-label">EN</span></button>
+			<button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+		</div>
+	</header>
+
+	<main>
+		<section class="project-hero">
+			<div class="project-hero-copy">
+				<p class="section-kicker">HTML5 · CSS3 · JavaScript ES6+ · Web Audio API · Retro OS</p>
+				<h1>Risk Pattern Lab</h1>
+				<p data-pt="Simulador interativo de investigação de risco, antifraude e compliance em interface Retro OS. Exercita a dinâmica analítica dos 4 passos (Observe ➔ Conecte ➔ Classifique ➔ Decida) através de 8 casos reais com revelação progressiva de evidências, validação pelo Guia Operacional e efeitos sonoros gerados por Web Audio API."
+				   data-en="Interactive risk, anti-fraud, and compliance investigation simulator built in a Retro OS interface. Exercises the 4-step analytical methodology (Observe ➔ Connect ➔ Classify ➔ Decide) across 8 real-world cases with progressive evidence disclosure, Operational Guide feedback, and synthetic sound effects via native Web Audio API.">Simulador interativo de investigação de risco, antifraude e compliance em interface Retro OS. Exercita a dinâmica analítica dos 4 passos (Observe ➔ Conecte ➔ Classifique ➔ Decida) através de 8 casos reais com revelação progressiva de evidências, validação pelo Guia Operacional e efeitos sonoros gerados por Web Audio API.</p>
+				<div style="display: flex; gap: 12px; flex-wrap: wrap;">
+					<a class="button button-primary" href="https://gaicos.github.io/RISK-PATTERN-LAB-/" target="_blank" rel="noopener"><i class="fas fa-play"></i><span data-pt="Jogar Online (Live Demo)" data-en="Play Online (Live Demo)">Jogar Online (Live Demo)</span></a>
+					<a class="button" href="https://github.com/Gaicos/RISK-PATTERN-LAB-" target="_blank" rel="noopener" style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15);"><i class="fab fa-github"></i><span data-pt="Ver no GitHub" data-en="View on GitHub">Ver no GitHub</span></a>
+				</div>
+			</div>
+			<div class="project-hero-art gallery-dark"><img src="images/risk-lab-cover.jpg" alt="Tela inicial do Risk Pattern Lab em interface Retro OS" class="shot-top"></div>
+		</section>
+
+		<section class="project-section">
+			<div class="project-facts">
+				<div class="fact-card"><span data-pt="Meu papel" data-en="My role">Meu papel</span><strong data-pt="Idealização, Arquitetura e UI/UX" data-en="Concept, Architecture and UI/UX">Idealização, Arquitetura e UI/UX</strong></div>
+				<div class="fact-card"><span data-pt="Tipo" data-en="Type">Tipo</span><strong data-pt="Simulador Web / Gamificação" data-en="Web Simulator / Gamification">Simulador Web / Gamificação</strong></div>
+				<div class="fact-card"><span>Status</span><strong data-pt="Online no GitHub Pages" data-en="Live on GitHub Pages">Online no GitHub Pages</strong></div>
+			</div>
+			<div class="project-content-grid">
+				<article class="feature-card">
+					<h2 data-pt="O desafio &amp; Regra de Ouro" data-en="The challenge &amp; Golden Rule">O desafio &amp; Regra de Ouro</h2>
+					<p data-pt="Treinar analistas de risco para superar o erro comum de classificar pelo primeiro sinal. O laboratório exercita o princípio fundamental: 'Sinal ≠ Conclusão'. Mudar de hipótese diante de uma nova evidência faz parte de uma boa análise." data-en="Train risk analysts to avoid the common pitfall of concluding based on the first clue. The simulator instills the golden rule: 'Clue ≠ Conclusion'. Adjusting hypotheses in light of new evidence is essential for rigorous investigation.">Treinar analistas de risco para superar o erro comum de classificar pelo primeiro sinal. O laboratório exercita o princípio fundamental: 'Sinal ≠ Conclusão'. Mudar de hipótese diante de uma nova evidência faz parte de uma boa análise.</p>
+				</article>
+				<article class="feature-card">
+					<h2 data-pt="Funcionalidades da Aplicação" data-en="Application Features">Funcionalidades da Aplicação</h2>
+					<ul>
+						<li data-pt="Dossiê de revelação progressiva: desbloqueio gradual de pistas 01, 02 e 03 sob demanda" data-en="Progressive disclosure dossier: step-by-step unlock of clues 01, 02, and 03 on demand">Dossiê de revelação progressiva: desbloqueio gradual de pistas 01, 02 e 03 sob demanda</li>
+						<li data-pt="Recompensa por prudência analítica: pontuação extra para quem cruza todas as evidências antes do parecer" data-en="Analytical prudence reward: bonus score for correlating all evidence before final verdict">Recompensa por prudência analítica: pontuação extra para quem cruza todas as evidências antes do parecer</li>
+						<li data-pt="8 casos completos cobrindo Abuso de Bônus, Invasão ATO, Lavagem AML, Arbitragem ARB e Chargeback" data-en="8 complete cases covering Bonus Abuse, ATO, AML, Arbitrage, and Chargeback">8 casos completos cobrindo Abuso de Bônus, Invasão ATO, Lavagem AML, Arbitragem ARB e Chargeback</li>
+						<li data-pt="Modal do Guia Operacional integrado com consulta instantânea de categorias de risco" data-en="Built-in Operational Guide modal with instant reference for risk categories">Modal do Guia Operacional integrado com consulta instantânea de categorias de risco</li>
+						<li data-pt="Interface Retro OS nostálgica com botões táteis chanfrados em 3D, relógio real e barra de tarefas" data-en="Nostalgic Retro OS UI with tactile 3D beveled buttons, live clock, and taskbar">Interface Retro OS nostálgica com botões táteis chanfrados em 3D, relógio real e barra de tarefas</li>
+						<li data-pt="Efeitos sonoros vintage sintetizados nativamente via Web Audio API do navegador" data-en="Vintage synthetic sound effects generated natively via browser Web Audio API">Efeitos sonoros vintage sintetizados nativamente via Web Audio API do navegador</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+		<section class="project-section rt-flow-section">
+			<h2 class="rt-title" data-pt="A Metodologia dos 4 Passos" data-en="The 4-Step Methodology">A Metodologia dos 4 Passos</h2>
+			<ol class="rt-steps">
+				<li><span>01</span><h3 data-pt="Observe" data-en="Observe">Observe</h3><p data-pt="Identificação inicial dos sinais brutos no comportamento da conta ou transação." data-en="Initial identification of raw clues in account behavior or transactions.">Identificação inicial dos sinais brutos no comportamento da conta ou transação.</p></li>
+				<li><span>02</span><h3 data-pt="Conecte" data-en="Connect">Conecte</h3><p data-pt="Cruzamento dos indícios para correlacionar padrões e descartar coincidências." data-en="Cross-referencing clues to correlate patterns and rule out coincidence.">Cruzamento dos indícios para correlacionar padrões e descartar coincidências.</p></li>
+				<li><span>03</span><h3 data-pt="Classifique" data-en="Classify">Classifique</h3><p data-pt="Definição da hipótese analítica mais aderente ao conjunto integrado dos fatos." data-en="Selecting the analytical hypothesis that best fits the integrated facts.">Definição da hipótese analítica mais aderente ao conjunto integrado dos fatos.</p></li>
+				<li><span>04</span><h3 data-pt="Decida" data-en="Decide">Decida</h3><p data-pt="Registro da evidência determinante e consolidação do parecer técnico final." data-en="Recording the decisive evidence and submitting the final technical verdict.">Registro da evidência determinante e consolidação do parecer técnico final.</p></li>
+			</ol>
+		</section>
+
+		<section class="project-gallery">
+			<h2 data-pt="O Laboratório em Ação" data-en="The Lab in Action">O Laboratório em Ação</h2>
+			<div class="gallery-grid">
+				<figure class="gallery-item gallery-contain gallery-dark"><img src="images/risk-lab-guide.jpg" alt="Guia Operacional interativo com categorias de risco"><figcaption data-pt="Modal de consulta técnica do Guia Operacional" data-en="Operational Guide technical reference modal">Modal de consulta técnica do Guia Operacional</figcaption></figure>
+				<figure class="gallery-item gallery-contain gallery-dark"><img src="images/risk-lab-validation.jpg" alt="Tela de validação com feedback pelo Guia Operacional e pontuação"><figcaption data-pt="Feedback pós-decisão com pontuação e fundamentação técnica" data-en="Post-decision feedback with scoring and technical rationale">Feedback pós-decisão com pontuação e fundamentação técnica</figcaption></figure>
+			</div>
+		</section>
+	</main>
+	<script src="assets/js/project-page.js"></script>
+	<script src="assets/js/bilingual.js"></script>
+</body>
+</html>
