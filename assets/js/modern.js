@@ -48,7 +48,7 @@
 			project_web: "Web App", project_in_progress: "(in progress)", project_game: "Web Game",
 			liam_description: "Web AML simulator built in a collaborative 3-developer squad for creating, modeling, and investigating fraud and compliance scenarios.",
 			lab_description: "Interactive Retro OS simulator exercising the 4-step methodology (Observe ➔ Connect ➔ Classify ➔ Decide) with native Web Audio API and 8 real cases.",
-			training_description: "Interactive investigation game with 5 levels and 100 cases, player profiles, team ranking, and online multiplayer mode to train Risk logging.",
+			training_description: "Interactive investigation game with 5 levels and 100 cases, player profiles, team ranking, and online multiplayer mode to sharpen Risk documentation skills.",
 			tracker_description: "Operational queue organizing email requests sent to the Risk team, improving turnaround tracking and documenting analyst actions.",
 			crud_description: "Full-stack web application featuring CRUD operations, layered architecture, and SQL Server integration.",
 			ygo_description: "Desktop application built in C# for statistical calculation and game data management.",
