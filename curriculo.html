@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
@@ -6,7 +6,7 @@
 <style>
   @page {
     size: A4;
-    margin: 12mm 14mm 12mm 14mm;
+    margin: 10mm 12mm 10mm 12mm;
   }
   * {
     box-sizing: border-box;
@@ -17,35 +17,35 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: #1a1f2c;
     background: #ffffff;
-    font-size: 10pt;
-    line-height: 1.45;
+    font-size: 9.5pt;
+    line-height: 1.4;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
   .header {
     border-bottom: 2px solid #2563eb;
-    padding-bottom: 8px;
-    margin-bottom: 12px;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
   }
   h1 {
-    font-size: 20pt;
+    font-size: 19pt;
     font-weight: 700;
     color: #0f172a;
     letter-spacing: -0.02em;
     text-transform: uppercase;
   }
   .role {
-    font-size: 11pt;
+    font-size: 10.5pt;
     font-weight: 600;
     color: #2563eb;
     margin-top: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
   .contacts {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
-    font-size: 9pt;
+    gap: 10px;
+    font-size: 8.8pt;
     color: #475569;
   }
   .contacts a {
@@ -57,17 +57,17 @@
     text-decoration: underline;
   }
   .section {
-    margin-bottom: 11px;
+    margin-bottom: 9px;
   }
   .section-title {
-    font-size: 10.5pt;
+    font-size: 10pt;
     font-weight: 700;
     color: #0f172a;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     border-bottom: 1px solid #e2e8f0;
-    padding-bottom: 3px;
-    margin-bottom: 6px;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -76,7 +76,7 @@
     content: "";
     display: inline-block;
     width: 4px;
-    height: 12px;
+    height: 11px;
     background: #2563eb;
     border-radius: 2px;
   }
@@ -85,20 +85,20 @@
     text-align: justify;
   }
   .summary {
-    font-size: 9.5pt;
-    line-height: 1.5;
+    font-size: 9pt;
+    line-height: 1.45;
   }
   .skills-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 4px;
-    font-size: 9pt;
+    gap: 3px;
+    font-size: 8.8pt;
   }
   .skill-item strong {
     color: #0f172a;
   }
   .item {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
   .item:last-child {
     margin-bottom: 0;
@@ -110,35 +110,38 @@
     margin-bottom: 2px;
   }
   .item-title {
-    font-size: 10pt;
+    font-size: 9.6pt;
     font-weight: 700;
     color: #0f172a;
   }
   .item-subtitle {
-    font-size: 9pt;
+    font-size: 8.8pt;
     font-weight: 600;
     color: #2563eb;
   }
   .item-date {
-    font-size: 8.5pt;
+    font-size: 8.2pt;
     color: #64748b;
     font-weight: 500;
   }
   ul {
-    padding-left: 16px;
-    margin-top: 3px;
+    padding-left: 15px;
+    margin-top: 2px;
   }
   li {
-    font-size: 9pt;
+    font-size: 8.8pt;
     color: #334155;
     margin-bottom: 2px;
-    line-height: 1.4;
+    line-height: 1.35;
   }
   li strong {
     color: #0f172a;
   }
   .project-item {
-    margin-bottom: 7px;
+    margin-bottom: 6px;
+  }
+  .project-item:last-child {
+    margin-bottom: 0;
   }
   .project-header {
     display: flex;
@@ -146,28 +149,29 @@
     align-items: baseline;
   }
   .project-name {
-    font-size: 9.5pt;
+    font-size: 9.3pt;
     font-weight: 700;
     color: #0f172a;
   }
   .project-tech {
-    font-size: 8.5pt;
+    font-size: 8.2pt;
     color: #2563eb;
     font-weight: 600;
   }
   .project-link {
-    font-size: 8pt;
+    font-size: 7.8pt;
     color: #64748b;
     text-decoration: none;
+    margin-left: 6px;
   }
   .project-link:hover {
     text-decoration: underline;
   }
   .project-desc {
-    font-size: 8.8pt;
+    font-size: 8.5pt;
     color: #334155;
     margin-top: 1px;
-    line-height: 1.38;
+    line-height: 1.35;
   }
 </style>
 </head>
@@ -175,7 +179,7 @@
 
 <div class="header">
   <h1>João Vitor Ribeiro Barbosa</h1>
-  <div class="role">Desenvolvedor de Software | .NET, C# &amp; Automação</div>
+  <div class="role">Desenvolvedor de Software | Full Stack &amp; Sustentação N2</div>
   <div class="contacts">
     <span>São Paulo, SP · 26 anos</span>
     <span>•</span>
@@ -194,18 +198,18 @@
 <div class="section">
   <div class="section-title">Resumo Profissional</div>
   <p class="summary">
-    Desenvolvedor de Software com sólida vivência na criação de aplicações web, simuladores e automações corporativas de alta criticidade. Combina proficiência técnica em <strong>C#, .NET, ASP.NET, SQL Server e JavaScript</strong> com experiência analítica em <strong>Risk Management, AML (Prevenção à Lavagem de Dinheiro) e Compliance</strong>. Histórico comprovado no desenvolvimento de simuladores de auditoria, filas operacionais de atendimento e automações com Power Automate, SharePoint e APIs, reduzindo gargalos operacionais e elevando a rastreabilidade e governança de dados.
+    Desenvolvedor de Software com atuação orientada a <strong>desenvolvimento Full Stack (Node.js, JavaScript/TypeScript, React e C#/.NET)</strong>, sustentação de sistemas críticos N2 e automações operacionais. Experiência sólida em <strong>investigação de causa raiz, troubleshooting de aplicações, consultas avançadas em SQL Server, consumo e construção de APIs RESTful</strong> e monitoramento de logs para garantia de SLAs e integridade de dados. Vivência comprovada no desenvolvimento de simuladores de regras de negócio, microsserviços de mensageria com WebSockets e fluxos automatizados corporativos (Power Automate, SharePoint e APIs), combinando forte raciocínio analítico com foco em estabilidade e entrega contínua.
   </p>
 </div>
 
 <div class="section">
   <div class="section-title">Habilidades Técnicas</div>
   <div class="skills-grid">
-    <div class="skill-item"><strong>Linguagens &amp; Frameworks:</strong> C#, .NET, .NET Framework, ASP.NET (MVC / Web API), JavaScript (ES6+), HTML5, CSS3, Python</div>
-    <div class="skill-item"><strong>Banco de Dados &amp; Persistência:</strong> Microsoft SQL Server, Modelagem Relacional, Consultas SQL, Integridade de Dados</div>
-    <div class="skill-item"><strong>Automação &amp; Integrações:</strong> Power Automate, Microsoft Lists, SharePoint, Outlook, Consumo e Criação de APIs REST</div>
-    <div class="skill-item"><strong>Boas Práticas &amp; Engenharia:</strong> Git, GitHub, Arquitetura em Camadas, Clean Code, Princípios SOLID, Validações de Entrada</div>
-    <div class="skill-item"><strong>Idiomas &amp; Diferenciais:</strong> Inglês Avançado · Pensamento voltado à Segurança da Informação e Prevenção de Fraudes</div>
+    <div class="skill-item"><strong>Desenvolvimento &amp; APIs:</strong> JavaScript (ES6+), TypeScript, Node.js, Express, React, APIs RESTful, WebSockets, C#, ASP.NET Core, Python</div>
+    <div class="skill-item"><strong>Sustentação &amp; Operações N2:</strong> Resolução de Incidentes, Análise de Logs, Diagnóstico de Causa Raiz, ITIL/SLA, Gestão de Acessos (IAM/AD)</div>
+    <div class="skill-item"><strong>Bancos de Dados &amp; Persistência:</strong> Microsoft SQL Server, PostgreSQL, Modelagem Relacional, Otimização de Queries SQL, Integridade de Dados</div>
+    <div class="skill-item"><strong>Automação &amp; Ferramentas:</strong> Git, GitHub, Power Automate, SharePoint, Microsoft Lists, Resiliência Operacional, Validações de Entrada</div>
+    <div class="skill-item"><strong>Idiomas &amp; Diferenciais:</strong> Inglês Intermediário/Técnico · Raciocínio Analítico voltado a Compliance, Segurança e Mitigação de Falhas</div>
   </div>
 </div>
 
@@ -214,14 +218,15 @@
   <div class="item">
     <div class="item-header">
       <div>
-        <span class="item-title">Atento / Playtech</span> — <span class="item-subtitle">Especialista em Gestão de Riscos &amp; Automação</span>
+        <span class="item-title">Atento / Playtech</span> — <span class="item-subtitle">Especialista em Sustentação Operacional, Risco &amp; Automação</span>
       </div>
-      <span class="item-date">Experiência mais recente</span>
+      <span class="item-date">Experiência Atual</span>
     </div>
     <ul>
-      <li>Projetou e desenvolveu ferramentas internas e fluxos com <strong>Power Automate, Microsoft Lists e SharePoint</strong>, eliminando triagens manuais repetitivas e reduzindo tempos de resposta da equipe operacional.</li>
-      <li>Desenvolveu a fila operacional <strong>Request Tracker</strong>, padronizando o ciclo de vida dos tickets com atribuição automática, rastreamento de status em tempo real e regras de escalonamento para gestão (SM/TL).</li>
-      <li>Conduziu conciliações transacionais e análises analíticas de inconsistências em depósitos, saques e alertas de compliance, documentando irregularidades técnicas para suporte a auditorias.</li>
+      <li>Atua na sustentação técnica e troubleshooting de processos e ferramentas operacionais, analisando anomalias e garantindo estrito cumprimento de SLAs e regras de conformidade.</li>
+      <li>Desenvolveu e implementou esteiras automatizadas com <strong>Power Automate, Microsoft Lists e SharePoint</strong>, reduzindo triagens manuais repetitivas e otimizando os tempos de resposta a incidentes operacionais.</li>
+      <li>Concebeu e implantou a fila operacional <strong>Request Tracker</strong>, padronizando o ciclo de vida dos chamados com roteamento automatizado, histórico de status e critérios de escalonamento para a liderança.</li>
+      <li>Executa consultas e análises transacionais em bases de dados (SQL), correlacionando eventos operacionais e fornecendo subsídios técnicos detalhados para relatórios de auditoria e governança.</li>
     </ul>
   </div>
 </div>
@@ -231,45 +236,45 @@
 
   <div class="project-item">
     <div class="project-header">
+      <span class="project-name">Risk Pattern Lab</span>
+      <span class="project-tech">JavaScript ES6+ · Web Audio API · Retro OS UI · Simulação</span>
+    </div>
+    <p class="project-desc">
+      Simulador interativo em tempo real para exercício e validação de padrões de regras de negócio e detecção de riscos. Implementou arquitetura em 4 etapas (Observe, Conecte, Classifique, Decida), geração procedural de áudio sintetizado e validação instantânea sem dependências externas.
+      <a class="project-link" href="https://gaicos.github.io/RISK-PATTERN-LAB-/" target="_blank">▸ gaicos.github.io/RISK-PATTERN-LAB-</a>
+    </p>
+  </div>
+
+  <div class="project-item">
+    <div class="project-header">
+      <span class="project-name">WhatsApp Automation Engine</span>
+      <span class="project-tech">Node.js · Baileys · WebSockets · Arquitetura Resiliente</span>
+    </div>
+    <p class="project-desc">
+      Serviço autônomo de mensageria e disparo operacional conectado via WebSockets com persistência multi-sessão (multi-device). Possui tratamento inteligente de desconexões (auto-recovery), processamento de comandos e controle de envio com temporizador dinâmico para operação contínua 24/7.
+      <a class="project-link" href="https://github.com/Gaicos" target="_blank">▸ github.com/Gaicos</a>
+    </p>
+  </div>
+
+  <div class="project-item">
+    <div class="project-header">
       <span class="project-name">LIAM (Linked Internal Account Matrix)</span>
-      <span class="project-tech">JavaScript · HTML5 · CSS3 · AML Framework</span>
+      <span class="project-tech">JavaScript · CRM Engine · IAM / Acessos · AML Framework</span>
     </div>
     <p class="project-desc">
-      Simulador web e framework de auditoria que recria o ambiente de CRM corporativo para modelar cenários complexos de AML e fraude. Desenvolveu gerador de coerência matemática financeira (PIX, depósitos, apostas de cassino e saques sincronizados), simulação de tipologias (<em>Dumping de Fichas</em> e <em>Apostas Auto Opostas</em>) e exportação em HTML standalone permanente.
-      <br><a class="project-link" href="https://github.com/Gaicos/LIAM" target="_blank">▸ github.com/Gaicos/LIAM</a>
+      Ecossistema web corporativo para modelagem de cenários de auditoria e governança, desenvolvido com colaboração de squad técnica. Conta com gerador de coerência financeira (PIX, depósitos e saques), simulação de matriz de acessos e exportação permanente de evidências.
+      <a class="project-link" href="https://github.com/Gaicos/LIAM" target="_blank">▸ github.com/Gaicos/LIAM</a>
     </p>
   </div>
 
   <div class="project-item">
     <div class="project-header">
-      <span class="project-name">CSI Risk</span>
-      <span class="project-tech">JavaScript · HTML5 · CSS3 · Multiplayer · Game Logic</span>
+      <span class="project-name">CSI Risk &amp; GaicosCrud 2.0</span>
+      <span class="project-tech">JavaScript / C# · ASP.NET · SQL Server · Multiplayer</span>
     </div>
     <p class="project-desc">
-      Jogo web investigativo gamificado para treinamento de analistas na detecção de fraudes. Conta com 5 níveis de progressão, 100 casos estruturados, sistema de pontuação Elo e modo ranqueado multiplayer online com busca de oponentes em tempo real.
-      <br><a class="project-link" href="https://github.com/Gaicos/CSI-Risk" target="_blank">▸ github.com/Gaicos/CSI-Risk</a>
-    </p>
-  </div>
-
-  <div class="project-item">
-    <div class="project-header">
-      <span class="project-name">GaicosCrud 2.0</span>
-      <span class="project-tech">ASP.NET · C# · SQL Server · Bootstrap</span>
-    </div>
-    <p class="project-desc">
-      Aplicação web completa com operações CRUD conectada ao SQL Server, organizada em camadas com validação estrita de integridade de dados (validação de CPF, restrições cadastrais e feedback visual ao usuário).
-      <br><a class="project-link" href="https://github.com/Gaicos/GaicosCrud-V-2.0" target="_blank">▸ github.com/Gaicos/GaicosCrud-V-2.0</a>
-    </p>
-  </div>
-
-  <div class="project-item">
-    <div class="project-header">
-      <span class="project-name">YGOtools</span>
-      <span class="project-tech">C# · .NET Framework · Windows Forms</span>
-    </div>
-    <p class="project-desc">
-      Aplicação desktop em C# para auxílio estatístico, gerenciamento de dados e cálculo de probabilidade de abertura de mãos.
-      <br><a class="project-link" href="https://github.com/Gaicos/YGOtools" target="_blank">▸ github.com/Gaicos/YGOtools</a>
+      Aplicações complementares: <strong>CSI Risk</strong> (jogo investigativo com lógica multiplayer online e ranking competitivo) e <strong>GaicosCrud 2.0</strong> (aplicação web em camadas construída em C# / ASP.NET conectada ao SQL Server com validação estrita de integridade de dados).
+      <a class="project-link" href="https://github.com/Gaicos" target="_blank">▸ github.com/Gaicos</a>
     </p>
   </div>
 </div>
@@ -288,4 +293,3 @@
 
 </body>
 </html>
-

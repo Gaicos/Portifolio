@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
 	const root = document.documentElement;
 	const themeToggle = document.getElementById("theme-toggle");
 	const languageToggle = document.getElementById("language-toggle");
@@ -12,10 +12,10 @@
 		"pt-BR": {
 			nav_home: "Início", nav_about: "Sobre", nav_projects: "Projetos", nav_contact: "Contato",
 			hero_status: "Disponível para oportunidades", hero_greeting: "Olá, eu sou",
-			hero_description: "Transformo necessidades operacionais em soluções digitais, automações e sistemas integrados, combinando conhecimento de Risk/AML com desenvolvimento de software.",
+			hero_description: "Desenvolvedor de Software focado em soluções Full Stack (Node.js, JavaScript, React e APIs), sustentação crítica N2 e automações operacionais com SQL Server.",
 			view_projects: "Ver projetos", download_cv: "Baixar currículo",
 			about_kicker: "Sobre mim", about_title: "Construindo software com propósito.",
-			about_text: "Sou profissional de Risk Management e Desenvolvimento com sólida experiência prática em automação, engenharia de ferramentas internas e melhoria de processos. Conecto C#, .NET, SQL Server, JavaScript, Python, Power Automate, SharePoint e Microsoft Lists para transformar rotinas manuais em soluções rastreáveis, robustas e escaláveis.",
+			about_text: "Sou desenvolvedor de software e analista de operações técnicas com sólida experiência prática em sustentação N2, desenvolvimento de aplicações web e automações corporativas. Combino Node.js, JavaScript moderno, React, APIs RESTful, SQL Server e C#/.NET para solucionar incidentes críticos, investigar causa raiz e transformar rotinas manuais em sistemas escaláveis e rastreáveis.",
 			stat_years: "Conhecimento operacional", stat_technologies: "Tecnologias", stat_team: "Espírito de equipe",
 			skills_title: "Stack principal",
 			projects_kicker: "Projetos selecionados", projects_title: "O que tenho construído.",
@@ -38,10 +38,10 @@
 		"en": {
 			nav_home: "Home", nav_about: "About", nav_projects: "Projects", nav_contact: "Contact",
 			hero_status: "Available for opportunities", hero_greeting: "Hi, I am",
-			hero_description: "I turn operational needs into digital solutions, automations, and integrated systems by combining Risk/AML domain knowledge with hands-on software development.",
+			hero_description: "Software Developer focused on Full Stack solutions (Node.js, JavaScript, React, APIs), critical N2 support, and operational automation with SQL Server.",
 			view_projects: "View projects", download_cv: "Download résumé",
 			about_kicker: "About me", about_title: "Building software with purpose.",
-			about_text: "I am a Risk Management and Software Development professional with hands-on experience in automation, internal tool engineering, and process optimization. I leverage C#, .NET, SQL Server, JavaScript, Python, Power Automate, SharePoint, and Microsoft Lists to transform manual routines into traceable, robust, and scalable solutions.",
+			about_text: "I am a software developer and technical operations analyst with hands-on experience in N2 systems support, web application development, and enterprise automation. I leverage Node.js, modern JavaScript, React, RESTful APIs, SQL Server, and C#/.NET to troubleshoot critical incidents, diagnose root causes, and turn manual routines into scalable, traceable systems.",
 			stat_years: "Operational knowledge", stat_technologies: "Technologies", stat_team: "Team collaboration",
 			skills_title: "Core stack",
 			projects_kicker: "Selected projects", projects_title: "What I have built.",
@@ -82,7 +82,7 @@
 		languageLabel.textContent = language === "pt-BR" ? "EN" : "PT";
 		languageToggle.setAttribute("aria-label", language === "pt-BR" ? "Mudar para inglês" : "Switch to Portuguese");
 		localStorage.setItem("portfolio-language", language);
-		startTyping(language === "pt-BR" ? "Desenvolvedor .NET & Automação" : ".NET Developer & Automation");
+		startTyping(language === "pt-BR" ? "Full Stack & Sustentação N2" : "Full Stack & N2 Support");
 	}
 
 	let typingTimer;
