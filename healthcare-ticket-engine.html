@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#070b14">
+	<title>HealthCare Ticket Engine | João Vitor</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+	<link rel="stylesheet" href="assets/css/modern.css">
+	<link rel="stylesheet" href="assets/css/project.css">
+	<style>
+		.btn-group {
+			display: flex;
+			gap: 12px;
+			flex-wrap: wrap;
+			margin-top: 20px;
+		}
+		.btn-demo {
+			background: #0ea5e9;
+			color: #fff !important;
+		}
+		.btn-demo:hover {
+			background: #0284c7;
+		}
+		.btn-swagger {
+			background: #10b981;
+			color: #fff !important;
+		}
+		.btn-swagger:hover {
+			background: #059669;
+		}
+		.gallery-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+			gap: 20px;
+			margin-top: 30px;
+		}
+		.gallery-card {
+			background: rgba(255, 255, 255, 0.03);
+			border: 1px solid rgba(255, 255, 255, 0.08);
+			border-radius: 16px;
+			overflow: hidden;
+			padding: 16px;
+		}
+		.gallery-card img {
+			width: 100%;
+			height: auto;
+			border-radius: 8px;
+			display: block;
+			border: 1px solid rgba(255, 255, 255, 0.1);
+		}
+		.gallery-card h4 {
+			margin: 12px 0 6px 0;
+			font-size: 1.1rem;
+		}
+		.gallery-card p {
+			font-size: 0.9rem;
+			color: var(--text-muted, #94a3b8);
+			line-height: 1.5;
+		}
+		.badge-live {
+			display: inline-flex;
+			align-items: center;
+			gap: 6px;
+			padding: 4px 10px;
+			border-radius: 9999px;
+			font-size: 0.75rem;
+			font-weight: 600;
+			background: rgba(16, 185, 129, 0.15);
+			color: #34d399;
+			border: 1px solid rgba(52, 211, 153, 0.3);
+			margin-bottom: 12px;
+		}
+		.badge-live::before {
+			content: "";
+			width: 6px;
+			height: 6px;
+			border-radius: 50%;
+			background: #34d399;
+			box-shadow: 0 0 8px #34d399;
+		}
+	</style>
+</head>
+<body class="project-page">
+	<header class="project-nav">
+		<a class="brand" href="index.html"><span class="brand-mark">JV</span><span>João Vitor</span></a>
+		<div class="project-nav-actions">
+			<a class="icon-button project-back" href="index.html" aria-label="Voltar ao início"><i class="fas fa-arrow-left"></i></a>
+			<button class="icon-button" id="language-toggle" type="button" aria-label="Mudar idioma"><span id="language-label">EN</span></button>
+			<button class="icon-button" id="theme-toggle" type="button" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+		</div>
+	</header>
+
+	<main>
+		<section class="project-hero">
+			<div class="project-hero-copy">
+				<span class="badge-live">● Sistema em Produção (Live)</span>
+				<p class="section-kicker">ASP.NET Core .NET 8 · C# · REST API · Swagger · SLA Hospitalar</p>
+				<h1>HealthCare Ticket Engine</h1>
+				<p data-pt="Central hospitalar de gestão de chamados, triagem N2 e monitoramento em tempo real de SLAs críticos para incidentes em saúde suplementar (TISS, TUSS, Prontuário Eletrônico e Portais Médicos)."
+				   data-en="Hospital ticket management center, N2 triage, and real-time SLA monitoring for critical healthcare incidents (TISS, TUSS, Electronic Health Records, and Physician Portals).">Central hospitalar de gestão de chamados, triagem N2 e monitoramento em tempo real de SLAs críticos para incidentes em saúde suplementar (TISS, TUSS, Prontuário Eletrônico e Portais Médicos).</p>
+				
+				<div class="btn-group">
+					<a class="button btn-demo" href="https://healthcare-ticket-engine.onrender.com/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> <span data-pt="Acessar Sistema ao Vivo" data-en="Live Application">Acessar Sistema ao Vivo</span></a>
+					<a class="button btn-swagger" href="https://healthcare-ticket-engine.onrender.com/swagger" target="_blank" rel="noopener"><i class="fas fa-code"></i> <span data-pt="API Técnica (Swagger)" data-en="Swagger API Docs">API Técnica (Swagger)</span></a>
+					<a class="button button-primary" href="https://github.com/Gaicos/HealthCare-Ticket-Engine" target="_blank" rel="noopener"><i class="fab fa-github"></i> <span data-pt="Ver no GitHub" data-en="View on GitHub">Ver no GitHub</span></a>
+				</div>
+			</div>
+			<div class="project-hero-art"><img src="images/healthcare-ticket-engine-1.jpg" alt="HealthCare Ticket Engine - Central de Chamados Hospitalares"></div>
+		</section>
+
+		<section class="project-section">
+			<div class="project-facts">
+				<div class="fact-card"><span data-pt="Meu papel" data-en="My role">Meu papel</span><strong data-pt="Arquiteto &amp; Dev Backend .NET" data-en="Architect &amp; .NET Backend Dev">Arquiteto &amp; Dev Backend .NET</strong></div>
+				<div class="fact-card"><span data-pt="Stack Principal" data-en="Core Stack">Stack Principal</span><strong>C# · .NET 8 · ASP.NET Core</strong></div>
+				<div class="fact-card"><span data-pt="Deploy &amp; Status" data-en="Deploy &amp; Status">Deploy &amp; Status</span><strong data-pt="Em Produção (Render Cloud)" data-en="In Production (Render Cloud)">Em Produção (Render Cloud)</strong></div>
+			</div>
+
+			<div class="project-content-grid">
+				<article class="feature-card">
+					<h2 data-pt="O Desafio do Setor de Saúde" data-en="The Healthcare Challenge">O Desafio do Setor de Saúde</h2>
+					<p data-pt="Em ambientes hospitalares e operadoras de saúde, falhas de autorização de guias TISS, timeouts em consultas de exames e indisponibilidade de prontuários eletrônicos não podem esperar: cada minuto de atraso afeta o atendimento ao paciente e acarreta pesadas sanções regulatórias da ANS. O desafio foi criar uma plataforma capaz de priorizar rigorosamente o tempo restante de SLA e prover controle N2 imediato."
+					   data-en="In hospital environments and health maintenance organizations, TISS authorization failures, test history timeouts, and electronic health record downtimes cannot wait: every minute directly impacts patient care and regulatory compliance. The challenge was building an engine that rigorously tracks remaining SLA times and equips N2 technical support with instant resolution controls.">Em ambientes hospitalares e operadoras de saúde, falhas de autorização de guias TISS, timeouts em consultas de exames e indisponibilidade de prontuários eletrônicos não podem esperar: cada minuto de atraso afeta o atendimento ao paciente e acarreta pesadas sanções regulatórias da ANS. O desafio foi criar uma plataforma capaz de priorizar rigorosamente o tempo restante de SLA e prover controle N2 imediato.</p>
+				</article>
+
+				<article class="feature-card">
+					<h2 data-pt="Destaques da Arquitetura Técnica" data-en="Technical Architecture Highlights">Destaques da Arquitetura Técnica</h2>
+					<ul>
+						<li data-pt="Motor dinâmico de SLA hospitalar: Crítica (1h), Alta (4h), Média (8h) e Baixa (24h) com cálculo de contagem regressiva em tempo real" data-en="Dynamic hospital SLA engine: Critical (1h), High (4h), Medium (8h), Low (24h) with real-time countdown calculation">Motor dinâmico de SLA hospitalar: Crítica (1h), Alta (4h), Média (8h) e Baixa (24h) com cálculo de contagem regressiva em tempo real</li>
+						<li data-pt="API RESTful construída em ASP.NET Core .NET 8 com Swagger OpenAPI 3.0 para consumo por microsserviços hospitalares" data-en="RESTful API built with ASP.NET Core .NET 8 and Swagger OpenAPI 3.0 ready for hospital microservice consumption">API RESTful construída em ASP.NET Core .NET 8 com Swagger OpenAPI 3.0 para consumo por microsserviços hospitalares</li>
+						<li data-pt="Dupla interface integrada: Front-end operacional responsivo para triagem médica/suporte e documentação interativa Swagger para desenvolvedores" data-en="Integrated dual interface: Responsive operational front-end for medical support triage and interactive Swagger docs for developers">Dupla interface integrada: Front-end operacional responsivo para triagem médica/suporte e documentação interativa Swagger para desenvolvedores</li>
+						<li data-pt="Workflow N2 completo: Abertura ➔ Triagem/Início de Análise N2 ➔ Resolução com registro UTC de compliance" data-en="Complete N2 workflow: Ticket Creation ➔ Triage/N2 Analysis ➔ Resolution with compliant UTC timestamps">Workflow N2 completo: Abertura ➔ Triagem/Início de Análise N2 ➔ Resolução com registro UTC de compliance</li>
+						<li data-pt="Resiliência e testabilidade: Endpoint de redefinição de demonstração (/reset-demo) para validação contínua" data-en="Resilience and testability: /reset-demo endpoint allowing immediate continuous validation">Resiliência e testabilidade: Endpoint de redefinição de demonstração (/reset-demo) para validação contínua</li>
+					</ul>
+				</article>
+
+				<article class="takeaway-card">
+					<h2 data-pt="Impacto e Aprendizados" data-en="Impact &amp; Key Takeaways">Impacto e Aprendizados</h2>
+					<p data-pt="Consolidação de conceitos corporativos de Clean Architecture no .NET 8, injeção de dependência nativa, modelagem de regras de negócio estritas para saúde (padrões TISS/TUSS) e deploy contínuo em nuvem via containers/cloud runner com monitoramento ativo."
+					   data-en="Hands-on mastery of Clean Architecture principles in .NET 8, native dependency injection, healthcare domain compliance (TISS/TUSS standards), and production cloud deployments with active telemetry.">Consolidação de conceitos corporativos de Clean Architecture no .NET 8, injeção de dependência nativa, modelagem de regras de negócio estritas para saúde (padrões TISS/TUSS) e deploy contínuo em nuvem via containers/cloud runner com monitoramento ativo.</p>
+				</article>
+			</div>
+
+			<div class="gallery-grid">
+				<div class="gallery-card">
+					<img src="images/healthcare-ticket-engine-1.jpg" alt="Painel Operacional N2">
+					<h4 data-pt="Painel Operacional N2 Hospitalar" data-en="N2 Hospital Operational Dashboard">Painel Operacional N2 Hospitalar</h4>
+					<p data-pt="Visualização consolidada de volumetria, cartões de chamados com prazos de SLA, status dinâmico e ações rápidas de análise e resolução." data-en="Consolidated volume telemetry, incident cards with SLA deadlines, dynamic status, and one-click triage controls.">Visualização consolidada de volumetria, cartões de chamados com prazos de SLA, status dinâmico e ações rápidas de análise e resolução.</p>
+				</div>
+				<div class="gallery-card">
+					<img src="images/healthcare-ticket-engine-swagger.png" alt="Swagger OpenAPI 3.0 da API .NET 8">
+					<h4 data-pt="API RESTful .NET 8 (Swagger UI)" data-en=".NET 8 RESTful API (Swagger UI)">API RESTful .NET 8 (Swagger UI)</h4>
+					<p data-pt="Documentação técnica interativa da API permitindo testar diretamente as requisições GET, POST, PUT e validações de esquema." data-en="Interactive API documentation allowing developers to directly test GET, POST, PUT requests and schema validations.">Documentação técnica interativa da API permitindo testar diretamente as requisições GET, POST, PUT e validações de esquema.</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="project-footer">
+		<div class="project-footer-copy">
+			<p>&copy; 2026 João Vitor Ribeiro Barbosa. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+		</div>
+	</footer>
+
+	<script src="assets/js/modern.js"></script>
+	<script src="assets/js/project-page.js"></script>
+</body>
+</html>

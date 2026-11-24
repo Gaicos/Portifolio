@@ -24,6 +24,7 @@
 			lab_description: "Simulador investigativo Retro OS exercitando a metodologia dos 4 passos (Observe ➔ Conecte ➔ Classifique ➔ Decida) com Web Audio API e 8 casos reais.",
 			training_description: "Jogo interativo de investigação com 5 níveis e 100 casos, perfis, ranking da equipe e modo ranqueado multiplayer online para treinar registros de Risk.",
 			tracker_description: "Fila operacional para organizar solicitações enviadas por e-mail à equipe de Risk, melhorar o acompanhamento e documentar as ações dos analistas.",
+			healthcare_description: "Central de incidentes hospitalares e triagem N2 com motor de cálculo dinâmico de SLA (TISS, TUSS e Prontuário) em .NET 8 / C#, Swagger interativo e deploy em produção.",
 			crud_description: "Aplicação web com operações CRUD, arquitetura em camadas e integração com banco de dados SQL Server.",
 			ygo_description: "Aplicação desktop em C# para auxílio estatístico e gerenciamento de dados de jogos.",
 			contact_kicker: "Vamos conversar", contact_title: "Tem um projeto ou oportunidade em mente?", contact_button: "Enviar mensagem",
@@ -31,6 +32,7 @@
 			repo_risklab: "Simulador interativo de investigação de risco, antifraude e compliance em interface Retro OS.",
 			repo_liam: "Simulador de AML e framework para desenvolvimento de cenários de alertas e risco operacional.",
 			repo_csi: "Jogo interativo de investigação CSI Risk: 5 níveis, 100 casos e modo multiplayer.",
+			repo_healthcare: "Central de chamados hospitalares e motor de SLA em .NET 8, C#, REST API e Swagger.",
 			repo_crud: "Aplicação com operações de cadastro e manipulação de banco de dados SQL Server com validação de dados.",
 			repo_ygo: "Ferramenta desktop em C# para gerenciar estatísticas e dados de Yu-Gi-Oh!.",
 			footer_text: "Todos os direitos reservados."
@@ -50,6 +52,7 @@
 			lab_description: "Interactive Retro OS simulator exercising the 4-step methodology (Observe ➔ Connect ➔ Classify ➔ Decide) with native Web Audio API and 8 real cases.",
 			training_description: "Interactive investigation game with 5 levels and 100 cases, player profiles, team ranking, and online multiplayer mode to sharpen Risk documentation skills.",
 			tracker_description: "Operational queue organizing email requests sent to the Risk team, improving turnaround tracking and documenting analyst actions.",
+			healthcare_description: "Hospital incident center and Tier-2 triage engine with dynamic SLA tracking (TISS, TUSS, EMR) built with .NET 8 / C#, interactive Swagger API, and production deployment.",
 			crud_description: "Full-stack web application featuring CRUD operations, layered architecture, and SQL Server integration.",
 			ygo_description: "Desktop application built in C# for statistical calculation and game data management.",
 			contact_kicker: "Let's connect", contact_title: "Have a project or opportunity in mind?", contact_button: "Send message",
@@ -57,6 +60,7 @@
 			repo_risklab: "Interactive risk, anti-fraud, and compliance investigation simulator built in a Retro OS interface.",
 			repo_liam: "AML simulator and scenario framework for operational risk and alert modeling.",
 			repo_csi: "CSI Risk interactive investigation game: 5 levels, 100 cases, and multiplayer mode.",
+			repo_healthcare: "Hospital ticket center and SLA engine built with .NET 8, C#, REST API, and Swagger.",
 			repo_crud: "Web application featuring database operations and strict input validation.",
 			repo_ygo: "Desktop tool built in C# to manage deck statistics and calculate probability distributions.",
 			footer_text: "All rights reserved."
